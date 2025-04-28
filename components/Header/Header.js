@@ -24,7 +24,7 @@ function Header() {
     const navItems = [
         { title: 'HOME', path: '/' },
         { title: 'PRODUCTS', path: '/products' },
-        { title: 'APPLICATIONS', path: '/applications' },
+        { title: 'CALCULATOR', path: 'https://calc.magicseal.co.za/' },
         { title: 'TYRE CARE', path: '/tyre-care' },
         { title: 'ABOUT US', path: '/about' },
         { title: 'DEALERS', path: '/dealers' },

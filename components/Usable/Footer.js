@@ -6,7 +6,7 @@ function Footer() {
     const navItems = [
         { title: 'HOME', path: '/' },
         { title: 'PRODUCTS', path: '/products' },
-        { title: 'APPLICATIONS', path: '/applications' },
+        { title: 'CALCULATOR', path: 'https://calc.magicseal.co.za/' },
         { title: 'TYRE CARE', path: '/tyre-care' },
         { title: 'ABOUT US', path: '/about' },
         { title: 'DEALERS', path: '/dealers' },
@@ -14,7 +14,7 @@ function Footer() {
     ];
 
     const socialLinks = [
-        { name: 'Facebook', url: '#' },
+        { name: 'Facebook', url: 'https://www.facebook.com/profile.php?id=61575021916917' },
         { name: 'Twitter', url: '#' },
         { name: 'Instagram', url: '#' },
         { name: 'YouTube', url: '#' },
