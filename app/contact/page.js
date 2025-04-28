@@ -45,8 +45,8 @@ export default function ContactUs() {
               </p>
               <p>
                 <span className="font-bold">WhatsApp:</span>{' '}
-                <a href="https://wa.me/270727533348" className="text-[#FFD101] hover:underline">
-                  (+27) 072 753 3348
+                <a href="https://wa.me/0639313869" className="text-[#FFD101] hover:underline">
+                  (+27) 063 931 3869
                 </a>
               </p>
             </address>

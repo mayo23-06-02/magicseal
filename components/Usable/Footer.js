@@ -16,9 +16,9 @@ function Footer() {
     const socialLinks = [
         { name: 'Facebook', url: 'https://www.facebook.com/profile.php?id=61575021916917' },
         { name: 'Twitter', url: '#' },
-        { name: 'Instagram', url: '#' },
+        { name: 'Instagram', url: 'https://www.instagram.com/magicsealsa/' },
         { name: 'YouTube', url: '#' },
-        { name: 'WhatsApp', url: '#' },
+        { name: 'WhatsApp', url: 'https://wa.me/0639313869' },
     ];
 
     return (
