@@ -16,7 +16,7 @@ export default function Products() {
         <h2 className="text-2xl font-semibold text-[#FFD101] mb-6 font-poppins">
           Under Construction!
         </h2>
-        <p className="text-gray-600 mb-8 max-w-md mx-auto px-6 text-center font-poppins">
+        <p className="text-gray-100 mb-8 max-w-md mx-auto px-6 text-center font-poppins">
           Oops! Looks like this page is still under construction. Our team is working hard on the development of our new site!
         </p>
         <div className="max-w-2xl w-full mx-auto px-6 text-center">

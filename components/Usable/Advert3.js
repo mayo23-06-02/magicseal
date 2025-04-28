@@ -12,11 +12,11 @@ function Advert3() {
                 <div className='absolute  inset-0 '>
                     <div className='p-6 lg:px-0 max-w-7xl mx-auto w-full h-full flex flex-col justify-between'>
                         <div className='font-poppins  space-y-4 w-full'>
-                            <div className='-space-y-1 lg:space-y-1'>
+                            <div className='-space-y-1 lg:space-y-1 text-white'>
                                 <p className='text-2xl font-poppins lg:text-5xl font-bold'>Book A Demo</p>
                                 <p className='text-2xl font-poppins lg:text-5xl font-bold'>Today</p>
                             </div>
-                            <p className='font-sans  lg:text-2xl lg:w-6/12 font-light'>
+                            <p className='font-sans text-white  lg:text-2xl lg:w-6/12 font-light'>
                                 Get insights from our specialists on maximizing tyre.
                                 Fill out the form below and schedule your demo now!
                             </p>

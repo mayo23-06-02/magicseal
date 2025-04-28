@@ -1,29 +1,33 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import Carousel from 'react-multi-carousel'
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io'
 import 'react-multi-carousel/lib/styles.css'
-import DumpTruck from '../../assets/dumptruck.jpg'
-import DumpTruckSM from '../../assets/dumptruck_sm.jpg'
+import FleetGuard from '../../assets/FleetGuard.jpg'
+import FleetGuardSM from '../../assets/FleetGuardSM.jpg'
+import FleetGuardLogo from '../../assets/FG.svg'
+import XtremeYellow from '../../assets/XtremeYellow.jpg'
+import XtremeYellowSM from '../../assets/XtremeYellowSM.jpg'
+import XtremeYellowLogo from '../../assets/XY.svg'
+import AgriGuard from '../../assets/AgriGuard.jpg'
+import AgriGuardSM from '../../assets/AgriGuardSM.jpg'
+import AgriGuardLogo from '../../assets/AG.svg'
+import RaceX from '../../assets/RaceX.jpg'
+import RaceXSM from '../../assets/RaceXSM.jpg'
+import RaceXLogo from '../../assets/RX.svg'
 import PromotionalSection from './PromotionalSection'
+import Button from '../Usable/Button'
 
 function LandingSection01() {
   const responsive = {
-    superLargeDesktop: {
-      breakpoint: { max: 4000, min: 3000 },
-      items: 1
-    },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
       items: 1
     },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 1
-    },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 1024, min: 0 },
       items: 1
     }
   }
@@ -51,13 +55,41 @@ function LandingSection01() {
 
   const slides = [
     {
-      desktop: DumpTruck,
-      mobile: DumpTruckSM,
-      alt: "Dump Truck",
-      title: "The Ultimate Tyre Protection Solution",
-      description: "Engineered for superior performance, our tyre sealant adapts to various road conditions, offering unparalleled reliability."
+      desktop: FleetGuard,
+      mobile: FleetGuardSM,
+      productLogo: FleetGuardLogo,
+      alt: "FleetXGuard",
+      title: "FleetXGuard Protection",
+      description: "FleetXGuard is a revolutionary tyre sealant and life extender specifically designed and re-engineered from the ground up for extra heavy vehicles operating in African Conditions.",
+      link: "/products"
+    },
+    {
+      desktop: XtremeYellow,
+      mobile: XtremeYellowSM,
+      productLogo: XtremeYellowLogo,
+      alt: "XtremeYellow",
+      title: "XtremeYellow Protection",
+      description: "XtremeYellow is a revolutionary tyre sealant and life extender specifically designed and re-engineered from the ground up for extra heavy vehicles operating in African Conditions.",
+      link: "/products"
+    },
+    {
+      desktop: AgriGuard,
+      mobile: AgriGuardSM,
+      productLogo: AgriGuardLogo,
+      alt: "AgriGuard",
+      title: "AgriGuard Protection",
+      description: "AgriGuard is a revolutionary tyre sealant and life extender specifically designed and re-engineered from the ground up for extra heavy vehicles operating in African Conditions.",
+      link: "/products"
+    },
+    {
+      desktop: RaceX,
+      mobile: RaceXSM,  
+      productLogo: RaceXLogo,
+      alt: "RaceX",
+      title: "RaceX Protection",
+      description: "RaceX is a revolutionary tyre sealant and life extender specifically designed and re-engineered from the ground up for extra heavy vehicles operating in African Conditions.",
+      link: "/products"
     }
-    // Add more slides here with the same structure
   ]
 
   return (
@@ -68,9 +100,8 @@ function LandingSection01() {
           infinite={true}
           autoPlay={true}
           autoPlaySpeed={5000}
-          showDots={false}
-          
-          removeArrowOnDeviceType={["tablet", "mobile"]}
+          showDots={true}
+          removeArrowOnDeviceType={["mobile"]}
           dotListClass="custom-dot-list-style"
           customLeftArrow={<CustomArrow direction="left" />}
           customRightArrow={<CustomArrow direction="right" />}
@@ -78,7 +109,6 @@ function LandingSection01() {
         >
           {slides.map((slide, index) => (
             <div key={index} className="relative h-[600px] lg:h-[800px]">
-              {/* Desktop Image */}
               <Image
                 src={slide.desktop}
                 alt={slide.alt}
@@ -88,7 +118,6 @@ function LandingSection01() {
                 sizes="100vw"
                 quality={90}
               />
-              {/* Mobile Image */}
               <Image
                 src={slide.mobile}
                 alt={slide.alt}
@@ -99,14 +128,30 @@ function LandingSection01() {
                 quality={90}
               />
               <div className="absolute inset-0 bg-black bg-opacity-30">
-                <div className="absolute bottom-1/4 left-0 top-[40%] right-0 text-white px-4 lg:px-20 max-w-7xl mx-auto">
-                  <div className="max-w-7xl  text-white">
-                    <h1 className="text-3xl text-center lg:text-start lg:text-7xl font-bold mb-4 font-poppins max-w-[800px]">
-                      {slide.title}
-                    </h1>
-                    <p className=" lg:text-2xl text-center lg:text-start font-light mb-8 max-w-[700px]">
+                <div className="container mx-auto px-4 lg:px-8 h-full flex items-center">
+                  <div className="max-w-7xl mx-auto text-white">
+                    {slide.productLogo && (
+                      <Image
+                        src={slide.productLogo}
+                        alt={`${slide.alt} Logo`}
+                        width={500}
+                        height={150}
+                        className="mb-8 lg:mt-24 px-6 lg:px-0"
+                      />
+                    )}
+                    <p className="text-xs lg:text-base px-6 lg:px-0 text-gray-400 font-oswald text-center font-light max-w-2xl mx-auto">
                       {slide.description}
                     </p>
+                    <div className="flex justify-center mt-8">
+                      <Link href={slide.link}>
+                        <Button 
+                          variant="primary" 
+                          className="px-6 py-2 text-sm lg:text-lg hover:scale-105 transition-transform"
+                        >
+                          Learn More
+                        </Button>
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -115,7 +160,7 @@ function LandingSection01() {
         </Carousel>
       </div>
 
-      <div className="relative z-10 lg:-mt-24  w-full mx-auto">
+      <div className="relative z-10 -mt-24 w-full mx-auto">
         <PromotionalSection />
       </div>
     </section>

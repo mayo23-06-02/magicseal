@@ -1,6 +1,6 @@
 import React from 'react'
-import Logo2 from './Logo2'
 import Link from 'next/link'
+import Logo from './Logo';
 
 function Footer() {
     const navItems = [
@@ -22,19 +22,19 @@ function Footer() {
     ];
 
     return (
-        <footer className="bg-white">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <footer className="">
+            <div className="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8 py-12">
                 {/* Main Footer Content */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
                     {/* Logo Section */}
                     <div>
-                        <Logo2 width={400} height={100} />
+                        <Logo width={400} height={100} />
                     </div>
 
                     {/* Navigation Links */}
                     <div>
-                        <h3 className="font-poppins font-bold text-lg mb-4">Navigation</h3>
-                        <ul className="font-oswald font-light space-y-2">
+                        <h3 className="font-poppins font-bold text-lg text-white mb-4">Navigation</h3>
+                        <ul className="font-oswald font-light space-y-2 text-white">
                             {navItems.map((item) => (
                                 <li key={item.path}>
                                     <Link 
@@ -50,8 +50,8 @@ function Footer() {
 
                     {/* Social Links */}
                     <div>
-                        <h3 className="font-poppins font-bold text-lg mb-4">Connect With Us</h3>
-                        <ul className="font-oswald font-light space-y-2">
+                        <h3 className="font-poppins font-bold text-lg text-white mb-4">Connect With Us</h3>
+                        <ul className="font-oswald font-light space-y-2 text-white">
                             {socialLinks.map((social) => (
                                 <li key={social.name}>
                                     <a 
@@ -72,7 +72,7 @@ function Footer() {
                 <div className="border-t border-gray-200 my-8" />
 
                 {/* Copyright Section */}
-                <div className="text-center text-sm text-gray-600 space-y-2">
+                <div className="text-center text-sm text-gray-100 space-y-2">
                     <p>© {new Date().getFullYear()} MagicSeal. All rights reserved.</p>
                     <p>
                         Developed by{' '}

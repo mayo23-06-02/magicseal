@@ -8,7 +8,8 @@ import fleet from '../../assets/fleet.png';
 import security from '../../assets/security.png'; // Fixed typo
 import domestic from '../../assets/domestic.png';
 import mining from '../../assets/mining.png';
-import sport from '../../assets/sports.png';
+import agri from '../../assets/agri.png';
+import corporate from '../../assets/corporate.png';
 import transport from '../../assets/Transport.png';
 
 // Dynamically import carousel to avoid SSR issues
@@ -39,20 +40,21 @@ function Industries() {
 
   const industries = [
     { image: fleet, title: 'Fleet Management' },
-    { image: security, title: 'Security Services' },
-    { image: domestic, title: 'Domestic Use' },
-    { image: mining, title: 'Mining Operations' },
-    { image: sport, title: 'Sports & Recreation' },
-    { image: transport, title: 'Transport & Logistics' },
+    { image: security, title: 'Security ' },
+    { image: domestic, title: 'Domestic ' },
+    { image: corporate, title: 'Corporate' },
+    { image: mining, title: 'Mining' },
+    { image: agri, title: 'Agriculture' },
+    { image: transport, title: 'Transport' },
   ];
 
   return (
-    <section className=" relative my-6 flex flex-col items-center justify-center ">      
+    <section className=" relative my-6 flex flex-col items-center justify-center ">
       {/* Background Image */}
       <Image
         src={Dirt}
         alt="Industrial background"
-        width={1920}    
+        width={1920}
         height={400}
         className="object-cover w-full lg:h-[700px] h-[600px]  opacity-60"
         priority
@@ -62,17 +64,23 @@ function Industries() {
         <div className="max-w-7xl mx-auto  px-6 lg:px-0">
           {/* Title Section */}
           <div className="space-y-6 mb-12">
-            <h2 className="text-2xl lg:text-5xl font-bold  font-poppins">
-              MagicSeal is engineered
-              <br />
-              for all industries
-            </h2>
-            <p className=" lg:text-lg  max-w-2xl">
-            Engineered for superior performance, our tyre sealant adapts to 
-            various road conditions, offering unparalleled reliability.
-            
+            <div className='flex'>
+              <div className='w-2 h-22 bg-[#FFD101] ' />
+              <div className='font-andreas font-bold text-2xl lg:text-5xl lg:space-y-1'>
+                <p className='px-2 bg-white py-1'>MagicSeal is engineered</p>
+                <div className='bg-[#161616] py-1 items-center w-full flex'>
+                  <p className=' px-2 `flex items-center text-[#FFD101]'>for all industries</p>
+                </div>
+              </div>
+            </div>
+            <p className=" lg:text-lg text-white max-w-2xl">
+              Engineered for superior performance, our tyre sealant adapts to
+              various road conditions, offering unparalleled reliability.
+
             </p>
           </div>
+         
+
 
           {/* Carousel Section */}
           <Carousel
@@ -91,11 +99,11 @@ function Industries() {
                 <Image
                   src={industry.image}
                   alt={industry.title}
-                  width={400}
+                  width={800}
                   height={500}
                   className="w-full h-[250px] object-cover"
                 />
-               
+
               </div>
             ))}
           </Carousel>

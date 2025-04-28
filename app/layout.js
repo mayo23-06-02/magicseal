@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${poppins.variable} ${oswald.variable} ${Andreas.variable} antialiased`}
+        className={`${poppins.variable} ${oswald.variable} ${Andreas.variable} antialiased bg-[#252222]`}
       >
         {children}
       </body>
