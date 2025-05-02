@@ -13,7 +13,7 @@ export default function AgriGuard() {
                 <Header />
             </span>
 
-            <div className="relative w-full h-[50vh] mt-20">
+            <div className="relative w-full h-[50vh] ">
                 <Image
                     src={AgriGuardImage}
                     alt="AgriGuard agricultural machinery application"

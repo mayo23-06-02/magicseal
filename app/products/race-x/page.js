@@ -13,7 +13,7 @@ export default function RaceX() {
                 <Header />
             </span>
 
-            <div className="relative w-full h-[50vh] mt-20">
+            <div className="relative w-full h-[50vh] ">
                 <Image
                     src={RaceXImage}
                     alt="RaceX motorcycle application"

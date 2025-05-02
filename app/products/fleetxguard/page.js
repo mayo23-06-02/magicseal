@@ -15,7 +15,7 @@ export default function FleetXGuard() {
             </span>
 
             {/* Hero Section */}
-            <div className="relative w-full h-[50vh] mt-20">
+            <div className="relative w-full h-[50vh]">
                 {/* Desktop Image */}
                 <Image
                     src={FleetXGuardImage}
