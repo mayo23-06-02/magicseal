@@ -13,7 +13,7 @@ export default function XtremeYellow() {
                 <Header />
             </span>
 
-            <div className="relative w-full h-[50vh] ">
+            <div className="relative w-full h-[50vh] mt-20">
                 <Image
                     src={XtremeYellowImage}
                     alt="XtremeYellow heavy machinery application"
@@ -33,13 +33,13 @@ export default function XtremeYellow() {
                     quality={90}
                 />
                 <div className="absolute inset-0 bg-black/60" />
-                <div className="absolute inset-0 flex top-[30%] justify-center">
+                <div className="absolute inset-0 flex top-[30\%] justify-center">
                     <Image
                         src={XtremeYellowLogo}
                         alt="XtremeYellow Logo"
                         width={500}
                         height={150}
-                        className="px-6 lg:px-0 max-w-[90%] lg:max-w-[600px]"
+                        className="px-6 lg:px-0 max-w-[90\%] lg:max-w-[600px]"
                         priority
                     />
                 </div>
@@ -47,7 +47,6 @@ export default function XtremeYellow() {
 
             <div className="max-w-7xl mx-auto px-4 lg:px-8 py-16">
                 <div className="space-y-12">
-                    {/* Introduction */}
                     <div className="font-oswald space-y-4">
                         <p className="text-lg lg:text-xl text-white leading-relaxed">
                             In the world of yellow metal, ensuring the longevity and performance of tires is crucial to success. Downtime is a swearword. Period. Especially when it is unplanned. In no sector of vehicle operation do we see vehicles and their tires subject to greater extremes.
@@ -57,7 +56,6 @@ export default function XtremeYellow() {
                         </p>
                     </div>
 
-                    {/* Features Sections */}
                     <div className="grid lg:grid-cols-2 gap-8 lg:gap-16">
                         <div className="space-y-8">
                             <div className="space-y-4">
@@ -65,7 +63,7 @@ export default function XtremeYellow() {
                                     Puncture Proof
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
-                                    Tests have shown that X-treme will reduce puncture related downtime and its associated cost by a whooping 95%. Punctures up to 22mm in diameter are sealed instantly and permanently, in most cases without the operator ever becoming aware there was a puncture. A patented blend of aramid fibres, unvulcanised rubber crumb, mica flakes, tackifiers and a huge dose of coolant achieve this.
+                                    Tests have shown that X-treme will reduce puncture related downtime and it\'s associated cost by a whooping 95\%. Punctures up to 22mm in diameter are sealed instantly and permanently, in most cases without the operator ever becoming aware there was a puncture. A patented blend of aramid fibres, unvulcanised rubber crumb, mica flakes, tackifiers and a huge dose of coolant achieve this.
                                 </p>
                             </div>
 
@@ -74,7 +72,7 @@ export default function XtremeYellow() {
                                     Massive Drop In Tyre Temperature!
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
-                                    X-treme Yellow is absolutely loaded with glycol - the same stuff industry uses as engine coolant or anti-freeze. Not only does this ensure the product won't freeze overnight in colder regions, but it drops operating temperatures by 35% and totally eliminates the formation of hot spots.
+                                    X-treme Yellow is absolutely loaded with glycol - the same stuff industry uses as engine coolant or anti-freeze. Not only does this ensure the product won\'t freeze overnight in colder regions, but it drops operating temperatures by 35\% and totally eliminates the formation of hot spots.
                                 </p>
                             </div>
                         </div>
@@ -94,7 +92,7 @@ export default function XtremeYellow() {
                                     X-treme Pressure Game!
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
-                                    The same elastomers in X-treme Yellow keep the tire supple and seep into the pores of the compound, creating an air barrier that is 1200% more impervious to compound leaks. This means your optimal pressure stays put 12 times longer.
+                                    The same elastomers in X-treme Yellow keep the tire supple and seep into the pores of the compound, creating an air barrier that is 1200\% more impervious to compound leaks. This means your optimal pressure stays put 12 times longer.
                                 </p>
                             </div>
 
@@ -103,7 +101,7 @@ export default function XtremeYellow() {
                                     The Bead is the WORD!
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
-                                    X-treme Yellow constantly feeds and nourishes the all important bead area for the lifetime of the tire. A lifetime that, overall, is greatly extended by X-treme Yellow's unique formula and protective properties.
+                                    X-treme Yellow constantly feeds and nourishes the all important bead area for the lifetime of the tire. A lifetime that, overall, is greatly extended by X-treme Yellow\'s unique formula and protective properties.
                                 </p>
                             </div>
                         </div>

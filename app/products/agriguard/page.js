@@ -13,7 +13,7 @@ export default function AgriGuard() {
                 <Header />
             </span>
 
-            <div className="relative w-full h-[50vh] ">
+            <div className="relative w-full h-[50vh] mt-20">
                 <Image
                     src={AgriGuardImage}
                     alt="AgriGuard agricultural machinery application"
@@ -33,7 +33,7 @@ export default function AgriGuard() {
                     quality={90}
                 />
                 <div className="absolute inset-0 bg-black/60" />
-                <div className="absolute inset-0 flex top-[30%] justify-center">
+                <div className="absolute inset-0 flex items-center justify-center">
                     <Image
                         src={AgriGuardLogo}
                         alt="AgriGuard Logo"
@@ -47,17 +47,15 @@ export default function AgriGuard() {
 
             <div className="max-w-7xl mx-auto px-4 lg:px-8 py-16">
                 <div className="space-y-12">
-                    {/* Introduction */}
                     <div className="font-oswald space-y-6">
                         <p className="text-lg lg:text-xl text-white leading-relaxed">
                             In the rugged world of agriculture and forestry, your equipment faces relentless challenges—rough terrains, heavy loads, and extreme weather conditions. Tires bear the brunt of this punishment, often leading to frequent failures, costly replacements, and lost productivity.
                         </p>
                         <p className="text-lg lg:text-xl text-white leading-relaxed">
-                            AgriGuard is here to change that. Specifically engineered for extra-heavy vehicles operating in demanding African conditions, AgriGuard delivers unparalleled tire protection, reducing tire incidents by 75% and extending tread life by up to 30%.
+                            AgriGuard is here to change that. Specifically engineered for extra-heavy vehicles operating in demanding African conditions, AgriGuard delivers unparalleled tire protection, reducing tire incidents by 75\% and extending tread life by up to 30\%.
                         </p>
                     </div>
 
-                    {/* Key Features */}
                     <div className="grid lg:grid-cols-2 gap-8 lg:gap-16">
                         <div className="space-y-8">
                             <div className="space-y-4">
@@ -65,7 +63,7 @@ export default function AgriGuard() {
                                     Superior Temperature Management
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
-                                    Excessive heat accelerates tire wear, especially in hot climates or during long hours of operation. AgriGuard incorporates advanced glycol-based technology, slashing tire operating temperatures by up to 35%. This eliminates hot spots—pockets of intense heat that degrade tire compounds—keeping your tires cooler and more durable.
+                                    Excessive heat accelerates tire wear, especially in hot climates or during long hours of operation. AgriGuard incorporates advanced glycol-based technology, slashing tire operating temperatures by up to 35\%. This eliminates hot spots—pockets of intense heat that degrade tire compounds—keeping your tires cooler and more durable.
                                 </p>
                             </div>
 
@@ -74,7 +72,7 @@ export default function AgriGuard() {
                                     Long-Lasting Pressure Stability
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
-                                    AgriGuard forms a robust air barrier within the tire, reducing pressure loss by an impressive 1200%. This ensures your tires maintain ideal pressure far longer, minimizing maintenance hassles and maximizing uptime for tractors, combines, and other machinery.
+                                    AgriGuard forms a robust air barrier within the tire, reducing pressure loss by an impressive 1200\%. This ensures your tires maintain ideal pressure far longer, minimizing maintenance hassles and maximizing uptime for tractors, combines, and other machinery.
                                 </p>
                             </div>
                         </div>
@@ -85,7 +83,7 @@ export default function AgriGuard() {
                                     Tire Resilience Through Elastomer Replenishment
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
-                                    AgriGuard is infused with nature-identical elastomers that continuously nourish the tire's rubber compound. This keeps tires flexible and elastic, allowing them to self-heal from minor damage and resist cracking, ensuring they perform reliably for their entire lifespan.
+                                    AgriGuard is infused with nature-identical elastomers that continuously nourish the tire\'s rubber compound. This keeps tires flexible and elastic, allowing them to self-heal from minor damage and resist cracking, ensuring they perform reliably for their entire lifespan.
                                 </p>
                             </div>
 
@@ -100,15 +98,14 @@ export default function AgriGuard() {
                         </div>
                     </div>
 
-                    {/* Benefits Section */}
                     <div className="space-y-6">
                         <h2 className="text-[#FFD101] text-3xl lg:text-4xl font-bold font-oswald">
                             Benefits That Drive Your Operation Forward
                         </h2>
                         <div className="grid lg:grid-cols-2 gap-8">
                             <ul className="list-disc list-inside text-gray-300 space-y-4 ml-4">
-                                <li>Extend tire life by 30% and cut replacement costs significantly</li>
-                                <li>75% reduction in tire-related issues for maximum uptime</li>
+                                <li>Extend tire life by 30\% and cut replacement costs significantly</li>
+                                <li>75\% reduction in tire-related issues for maximum uptime</li>
                                 <li>Improved fuel efficiency through optimal tire pressure</li>
                                 <li>Enhanced safety by minimizing blowouts and sudden failures</li>
                                 <li>Eco-friendly impact through reduced waste and lower carbon footprint</li>

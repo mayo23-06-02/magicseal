@@ -13,7 +13,7 @@ export default function RaceX() {
                 <Header />
             </span>
 
-            <div className="relative w-full h-[50vh] ">
+            <div className="relative w-full h-[50vh] mt-20">
                 <Image
                     src={RaceXImage}
                     alt="RaceX motorcycle application"
@@ -33,7 +33,7 @@ export default function RaceX() {
                     quality={90}
                 />
                 <div className="absolute inset-0 bg-black/60" />
-                <div className="absolute inset-0 flex top-[30%] justify-center">
+                <div className="absolute inset-0 flex items-center justify-center">
                     <Image
                         src={RaceXLogo}
                         alt="RaceX Logo"
@@ -48,19 +48,21 @@ export default function RaceX() {
             <div className="max-w-7xl mx-auto px-4 lg:px-8 py-16">
                 <div className="space-y-12">
                     {/* Introduction */}
-                    <div className="font-oswald space-y-4">
-                        <h1 className="text-[#FFD101] text-3xl lg:text-4xl font-bold mb-6">
+                    <div className="font-oswald space-y-6">
+                        <h1 className="text-[#FFD101] text-3xl lg:text-4xl font-bold">
                             Ultimate Tire Protection for Motorbikes
                         </h1>
-                        <p className="text-lg lg:text-xl text-white leading-relaxed">
-                            In the world of motorbiking, your tires are your lifeline. They connect you to the road, dictate your grip, and ultimately, determine your safety. For riders who demand the best, RaceX offers unparalleled tire protection tailored specifically for motorbikes.
-                        </p>
-                        <p className="text-lg lg:text-xl text-white leading-relaxed">
-                            Engineered from the ground up for motorbike enthusiasts, RaceX brings cutting-edge technology to the two-wheeled world, ensuring your tires perform at their peak, mile after mile.
-                        </p>
+                        <div className="space-y-4">
+                            <p className="text-lg lg:text-xl text-white leading-relaxed">
+                                In the world of motorbiking, your tires are your lifeline. They connect you to the road, dictate your grip, and ultimately, determine your safety. For riders who demand the best, RaceX offers unparalleled tire protection tailored specifically for motorbikes.
+                            </p>
+                            <p className="text-lg lg:text-xl text-white leading-relaxed">
+                                Engineered from the ground up for motorbike enthusiasts, RaceX brings cutting-edge technology to the two-wheeled world, ensuring your tires perform at their peak, mile after mile.
+                            </p>
+                        </div>
                     </div>
 
-                    {/* Features Grid */}
+                    {/* Key Features */}
                     <div className="grid lg:grid-cols-2 gap-8 lg:gap-16">
                         <div className="space-y-8">
                             <div className="space-y-4">
@@ -97,7 +99,7 @@ export default function RaceX() {
                                     Elastomer Replenishment
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
-                                    RaceX continuously feeds the tire with nature-identical elastomers, keeping the rubber supple and resilient. This enhances the tire's ability to absorb shocks and self-heal from punctures, vital for motorbikes that rely on tire flexibility for cornering and stability.
+                                    RaceX continuously feeds the tire with nature-identical elastomers, keeping the rubber supple and resilient. This enhances the tire\'s ability to absorb shocks and self-heal from punctures, vital for motorbikes that rely on tire flexibility for cornering and stability.
                                 </p>
                             </div>
 
@@ -119,6 +121,16 @@ export default function RaceX() {
                                 </p>
                             </div>
                         </div>
+                    </div>
+
+                    {/* Application Section */}
+                    <div className="space-y-6">
+                        <h2 className="text-[#FFD101] text-3xl lg:text-4xl font-bold font-oswald">
+                            Simple Application, Universal Compatibility
+                        </h2>
+                        <p className="text-gray-300 leading-relaxed">
+                            Applying RaceX is straightforward: inject the recommended amount through the tire valve, and it will distribute evenly as you ride. Compatible with all motorbike tires, from sport bikes to cruisers.
+                        </p>
                     </div>
 
                     {/* Benefits Section */}
