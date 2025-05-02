@@ -72,7 +72,7 @@ export default function AgriGuard() {
                                     Long-Lasting Pressure Stability
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
-                                    AgriGuard forms a robust air barrier within the tire, reducing pressure loss by an impressive 1200\%. This ensures your tires maintain ideal pressure far longer, minimizing maintenance hassles and maximizing uptime for tractors, combines, and other machinery.
+                                    AgriGuard forms a robust air barrier within the tire, reducing pressure loss by an impressive 1200%. This ensures your tires maintain ideal pressure far longer, minimizing maintenance hassles and maximizing uptime for tractors, combines, and other machinery.
                                 </p>
                             </div>
                         </div>
@@ -83,7 +83,7 @@ export default function AgriGuard() {
                                     Tire Resilience Through Elastomer Replenishment
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
-                                    AgriGuard is infused with nature-identical elastomers that continuously nourish the tire\'s rubber compound. This keeps tires flexible and elastic, allowing them to self-heal from minor damage and resist cracking, ensuring they perform reliably for their entire lifespan.
+                                    AgriGuard is infused with nature-identical elastomers that continuously nourish the tire&lsquo;s rubber compound. This keeps tires flexible and elastic, allowing them to self-heal from minor damage and resist cracking, ensuring they perform reliably for their entire lifespan.
                                 </p>
                             </div>
 

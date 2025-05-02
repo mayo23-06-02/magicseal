@@ -99,7 +99,7 @@ export default function RaceX() {
                                     Elastomer Replenishment
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
-                                    RaceX continuously feeds the tire with nature-identical elastomers, keeping the rubber supple and resilient. This enhances the tire\'s ability to absorb shocks and self-heal from punctures, vital for motorbikes that rely on tire flexibility for cornering and stability.
+                                    RaceX continuously feeds the tire with nature-identical elastomers, keeping the rubber supple and resilient. This enhances the tire&lsquo;s ability to absorb shocks and self-heal from punctures, vital for motorbikes that rely on tire flexibility for cornering and stability.
                                 </p>
                             </div>
 

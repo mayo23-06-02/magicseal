@@ -63,7 +63,7 @@ export default function XtremeYellow() {
                                     Puncture Proof
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
-                                    Tests have shown that X-treme will reduce puncture related downtime and it\'s associated cost by a whooping 95\%. Punctures up to 22mm in diameter are sealed instantly and permanently, in most cases without the operator ever becoming aware there was a puncture. A patented blend of aramid fibres, unvulcanised rubber crumb, mica flakes, tackifiers and a huge dose of coolant achieve this.
+                                    Tests have shown that X-treme will reduce puncture related downtime and it&lsquo;s associated cost by a whooping 95\%. Punctures up to 22mm in diameter are sealed instantly and permanently, in most cases without the operator ever becoming aware there was a puncture. A patented blend of aramid fibres, unvulcanised rubber crumb, mica flakes, tackifiers and a huge dose of coolant achieve this.
                                 </p>
                             </div>
 
@@ -72,7 +72,7 @@ export default function XtremeYellow() {
                                     Massive Drop In Tyre Temperature!
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
-                                    X-treme Yellow is absolutely loaded with glycol - the same stuff industry uses as engine coolant or anti-freeze. Not only does this ensure the product won\'t freeze overnight in colder regions, but it drops operating temperatures by 35\% and totally eliminates the formation of hot spots.
+                                    X-treme Yellow is absolutely loaded with glycol - the same stuff industry uses as engine coolant or anti-freeze. Not only does this ensure the product won&lsquo;t freeze overnight in colder regions, but it drops operating temperatures by 35\% and totally eliminates the formation of hot spots.
                                 </p>
                             </div>
                         </div>
@@ -101,7 +101,7 @@ export default function XtremeYellow() {
                                     The Bead is the WORD!
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
-                                    X-treme Yellow constantly feeds and nourishes the all important bead area for the lifetime of the tire. A lifetime that, overall, is greatly extended by X-treme Yellow\'s unique formula and protective properties.
+                                    X-treme Yellow constantly feeds and nourishes the all important bead area for the lifetime of the tire. A lifetime that, overall, is greatly extended by X-treme Yellow&lsquo;s unique formula and protective properties.
                                 </p>
                             </div>
                         </div>

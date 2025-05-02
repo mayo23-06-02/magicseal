@@ -80,7 +80,7 @@ export default function FleetXGuard() {
                                     Pressure Management Excellence
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
-                                    Under load on hot African roads, a 315/22.5 can lose up to 4kg of air a day through the rubber compound. FleetXGuard\'s innovative technology ensures optimal pressure maintenance, critical for maximum tyre life and performance.
+                                    Under load on hot African roads, a 315/22.5 can lose up to 4kg of air a day through the rubber compound. FleetXGuard&lsquo;s innovative technology ensures optimal pressure maintenance, critical for maximum tyre life and performance.
                                 </p>
                             </div>
 
@@ -100,7 +100,7 @@ export default function FleetXGuard() {
                                     Proven Performance Benefits
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
-                                    A 10\% under-inflation can cause as much as a 12\% loss in tyre lifespan. With FleetXGuard installed, fleets regularly see a 30\% increase in tread life span - a massive saving on your second biggest cost centre. That\'s what happens when you don\'t compromise on quality.
+                                    A 10% under-inflation can cause as much as a 12% loss in tyre lifespan. With FleetXGuard installed, fleets regularly see a 30% increase in tread life span - a massive saving on your second biggest cost centre. That&lsquo;s what happens when you don&lsquo;t compromise on quality.
                                 </p>
                             </div>
 
@@ -109,8 +109,8 @@ export default function FleetXGuard() {
                                     Key Benefits
                                 </h2>
                                 <ul className="list-disc list-inside text-gray-300 space-y-2 ml-4">
-                                    <li>Reduces tyre incidents by 75\%</li>
-                                    <li>Extends tread life by up to 30\%</li>
+                                    <li>Reduces tyre incidents by 75%</li>
+                                    <li>Extends tread life by up to 30%</li>
                                     <li>Maintains optimal pressure 48x longer</li>
                                     <li>Significant cost savings on maintenance</li>
                                     <li>Designed specifically for African conditions</li>
