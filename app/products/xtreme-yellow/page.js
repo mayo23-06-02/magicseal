@@ -92,7 +92,7 @@ export default function XtremeYellow() {
                                     X-treme Pressure Game!
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
-                                    The same elastomers in X-treme Yellow keep the tire supple and seep into the pores of the compound, creating an air barrier that is 1200\% more impervious to compound leaks. This means your optimal pressure stays put 12 times longer.
+                                    The same elastomers in X-treme Yellow keep the tire supple and seep into the pores of the compound, creating an air barrier that is 1200% more impervious to compound leaks. This means your optimal pressure stays put 12 times longer.
                                 </p>
                             </div>
 
