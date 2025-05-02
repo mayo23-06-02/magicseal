@@ -104,8 +104,8 @@ export default function AgriGuard() {
                         </h2>
                         <div className="grid lg:grid-cols-2 gap-8">
                             <ul className="list-disc list-inside text-gray-300 space-y-4 ml-4">
-                                <li>Extend tire life by 30\% and cut replacement costs significantly</li>
-                                <li>75\% reduction in tire-related issues for maximum uptime</li>
+                                <li>Extend tire life by 30% and cut replacement costs significantly</li>
+                                <li>75% reduction in tire-related issues for maximum uptime</li>
                                 <li>Improved fuel efficiency through optimal tire pressure</li>
                                 <li>Enhanced safety by minimizing blowouts and sudden failures</li>
                                 <li>Eco-friendly impact through reduced waste and lower carbon footprint</li>
