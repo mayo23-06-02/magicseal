@@ -89,7 +89,7 @@ function Header() {
                             ))}
                         </ul>
                     </div>
-                    <nav className='bg-[#FFD101] font-andreas w-full h-16 items-center px-16 flex justify-center'>
+                    <nav className='bg-[#FFD101] font-andreas text-black w-full h-16 items-center px-16 flex justify-center'>
                         <ul className='flex'>
                             {navItems.map((item, index) => (
                                 <div 
