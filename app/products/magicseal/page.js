@@ -73,7 +73,7 @@ export default function MagicSeal() {
                             MagicSeal is a proprietary blend of coolants, rubber, minerals, binders, clays, and aramid fibre—the same material used in bulletproof jackets. This unique mixture sits inside the tyre harmlessly for up to 20 years, instantly responding to and sealing punctures up to 16mm in diameter.
                         </p>
                         <p className="text-gray-300 leading-relaxed">
-                            When a puncture occurs, MagicSeal is forced into the hole by the tyre's internal pressure. The aramid fibres and rubber particles bind together to create a permanent seal. In most cases, the driver remains unaware of the puncture, as the repair is completed within minutes of driving.
+                            When a puncture occurs, MagicSeal is forced into the hole by the tyre&apos;s internal pressure. The aramid fibres and rubber particles bind together to create a permanent seal. In most cases, the driver remains unaware of the puncture, as the repair is completed within minutes of driving.
                         </p>
                         <p className="text-gray-300 leading-relaxed">
                             Even if the repair is not immediately cured, it will hold for up to a month without the need for additional driving, ensuring your safety and convenience.
