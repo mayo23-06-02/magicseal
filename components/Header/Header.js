@@ -23,10 +23,11 @@ function Header() {
     }, [isOpen]);
 
     const productItems = [
+        { title: 'MAGICSEAL', path: '/products/magicseal' },      
         { title: 'RACE-X', path: '/products/race-x' },
-        { title: 'FLEET X GUARD', path: '/products/fleetxguard' },
-        { title: 'XTREME YELLOW', path: '/products/xtreme-yellow' },
-        { title: 'AGRI GUARD', path: '/products/agriguard' },
+        { title: 'FLEETXGUARD', path: '/products/fleetxguard' },
+        { title: 'XTREMEYELLOW', path: '/products/xtreme-yellow' },
+        { title: 'AGRIGUARD', path: '/products/agriguard' },
     ];
 
     const navItems = [
@@ -40,7 +41,7 @@ function Header() {
         { title: 'CALCULATOR', path: 'https://calc.magicseal.co.za/', external: true },
         { title: 'TYRE CARE', path: '/tyre-care' },
         { title: 'ABOUT US', path: '/about' },
-        { title: 'DEALERS', path: '/dealers' },
+        { title: 'CLIENTS', path: '/clients' },
         { title: 'CONTACT US', path: '/contact' },
     ];
 

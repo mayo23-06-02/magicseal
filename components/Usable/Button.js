@@ -3,7 +3,7 @@ import React from 'react'
 import Loader from './Loader'
 
 const variantClasses = {
-    primary: 'bg-[#FFD101] text-black font-oswald font-bold hover:bg-[#FFFFFF] hover:text-black',
+    primary: 'bg-[#FFD101] text-black font-andreas font-bold hover:bg-[#FFFFFF] hover:text-black',
     secondary: 'bg-[#161616] text-white hover:bg-[#F0483E] hover:bg-opacity-10',
     danger: 'bg-red-500 text-white hover:bg-red-700'
 }

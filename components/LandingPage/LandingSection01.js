@@ -18,6 +18,9 @@ import RaceX from '../../assets/RaceX.jpg'
 import RaceXSM from '../../assets/RaceXSM.jpg'
 import RaceXLogo from '../../assets/RX.svg'
 import PromotionalSection from './PromotionalSection'
+import MagicSeal from '../../assets/sedan.jpg'
+import MagicSealSM from '../../assets/sedanSM.jpg'
+import MagicSealLogo from '../../assets/Logo.svg'
 import Button from '../Usable/Button'
 
 function LandingSection01() {
@@ -54,6 +57,15 @@ function LandingSection01() {
   )
 
   const slides = [
+    {
+      desktop: MagicSeal,
+      mobile: MagicSealSM,
+      productLogo: MagicSealLogo,
+      alt: "Magic Seal",
+      title: "MagicSeal Protection",
+      description: "MagicSeal is a revolutionary tyre sealant and life extender specifically designed and re-engineered from the ground up for extra heavy vehicles operating in African Conditions.",
+      link: "/products/magicseal"
+    },
     {
       desktop: FleetGuard,
       mobile: FleetGuardSM,
@@ -127,7 +139,7 @@ function LandingSection01() {
                 sizes="100vw"
                 quality={90}
               />
-              <div className="absolute inset-0 bg-black  bg-opacity-30">
+              <div className="absolute inset-0 bg-black bg-opacity-30">
                 <div className="container mx-auto px-4 lg:px-8 h-full flex items-center justify-center">
                   <div className="max-w-7xl mx-auto flex flex-col items-center justify-center text-white">
                     {slide.productLogo && (

@@ -23,7 +23,7 @@ function PromotionalSection() {
     {
       image: Demo,
       title: ['Book Demo Today'],
-      isForm: true,
+      description: 'Book a demo with us today to get started. Or send an email to us. We will get back to you.',
       buttonText: 'Call Me Today'
     }
   ]
@@ -70,7 +70,7 @@ function PromotionalSection() {
                     <Button className="mt-4">{card.buttonText}</Button>
                   </div>
                 ) : (
-                  <Button>{card.buttonText}</Button>
+                  <Button >{card.buttonText}</Button>
                 )}
               </div>
             </div>
