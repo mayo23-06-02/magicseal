@@ -12,8 +12,8 @@ function Advert2() {
                     <div className='p-6 lg:px-0 max-w-7xl mx-auto w-full h-full flex flex-col justify-between'>
                         <div className='font-poppins  space-y-4 w-full'>
                             <div className='-space-y-1 lg:space-y-1'>
-                                <p className='text-2xl font-poppins lg:text-5xl font-bold'>The Ultimate Tyre </p>
-                                <p className='text-2xl font-poppins lg:text-5xl font-bold'>Protection Solution</p>
+                                <p className='text-2xl font-andreas lg:text-5xl font-bold'>The Ultimate Tyre </p>
+                                <p className='text-2xl font-andreas lg:text-5xl font-bold'>Protection Solution</p>
                             </div>
                             <p className='font-sans  lg:text-lg lg:w-6/12 w-11/12 font-light'>
                                 Engineered for superior performance, our tyre sealant adapts to

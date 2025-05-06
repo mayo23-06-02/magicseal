@@ -45,7 +45,7 @@ function PromotionalSection() {
                 <div className='font-poppins text-white space-y-4'>
                   <div className='-space-y-1'>
                     {card.title.map((line, i) => (
-                      <p key={i} className='text-2xl font-bold'>{line}</p>
+                      <p key={i} className='text-2xl font-andreas font-bold'>{line}</p>
                     ))}
                   </div>
                   {card.description && (

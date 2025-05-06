@@ -47,7 +47,7 @@ export default function XtremeYellow() {
 
             <div className="max-w-7xl mx-auto px-4 lg:px-8 py-16">
                 <div className="space-y-12">
-                    <div className="font-oswald space-y-4">
+                    <div className="space-y-4 font-andreas">
                         <p className="text-lg lg:text-xl text-white leading-relaxed">
                             In the world of yellow metal, ensuring the longevity and performance of tires is crucial to success. Downtime is a swearword. Period. Especially when it is unplanned. In no sector of vehicle operation do we see vehicles and their tires subject to greater extremes.
                         </p>
@@ -59,7 +59,7 @@ export default function XtremeYellow() {
                     <div className="grid lg:grid-cols-2 gap-8 lg:gap-16">
                         <div className="space-y-8">
                             <div className="space-y-4">
-                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-oswald">
+                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-andreas">
                                     Puncture Proof
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
@@ -68,7 +68,7 @@ export default function XtremeYellow() {
                             </div>
 
                             <div className="space-y-4">
-                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-oswald">
+                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-andreas">
                                     Massive Drop In Tyre Temperature!
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
@@ -79,7 +79,7 @@ export default function XtremeYellow() {
 
                         <div className="space-y-8">
                             <div className="space-y-4">
-                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-oswald">
+                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-andreas">
                                     Keep Them Well Fed!
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
@@ -88,7 +88,7 @@ export default function XtremeYellow() {
                             </div>
 
                             <div className="space-y-4">
-                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-oswald">
+                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-andreas">
                                     X-treme Pressure Game!
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
@@ -97,7 +97,7 @@ export default function XtremeYellow() {
                             </div>
 
                             <div className="space-y-4">
-                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-oswald">
+                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-andreas">
                                     The Bead is the WORD!
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">

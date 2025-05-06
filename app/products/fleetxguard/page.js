@@ -59,7 +59,7 @@ export default function FleetXGuard() {
                 <div className="space-y-12">
                     {/* Introduction */}
                     <div className="font-oswald space-y-6">
-                        <h1 className="text-[#FFD101] text-3xl lg:text-4xl font-bold">
+                        <h1 className="text-[#FFD101] text-3xl lg:text-4xl font-bold font-andreas">
                             Revolutionary Tyre Protection for African Roads
                         </h1>
                         <div className="space-y-4">
@@ -76,7 +76,7 @@ export default function FleetXGuard() {
                     <div className="grid lg:grid-cols-2 gap-8 lg:gap-16">
                         <div className="space-y-8">
                             <div className="space-y-4">
-                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-oswald">
+                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-andreas">
                                     Pressure Management Excellence
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
@@ -85,7 +85,7 @@ export default function FleetXGuard() {
                             </div>
 
                             <div className="space-y-4">
-                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-oswald">
+                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-andreas">
                                     Advanced Air Barrier Technology
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
@@ -96,7 +96,7 @@ export default function FleetXGuard() {
 
                         <div className="space-y-8">
                             <div className="space-y-4">
-                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-oswald">
+                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-andreas">
                                     Proven Performance Benefits
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
@@ -105,7 +105,7 @@ export default function FleetXGuard() {
                             </div>
 
                             <div className="space-y-4">
-                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-oswald">
+                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-andreas">
                                     Key Benefits
                                 </h2>
                                 <ul className="list-disc list-inside text-gray-300 space-y-2 ml-4">

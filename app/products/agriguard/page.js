@@ -47,7 +47,7 @@ export default function AgriGuard() {
 
             <div className="max-w-7xl mx-auto px-4 lg:px-8 py-16">
                 <div className="space-y-12">
-                    <div className="font-oswald space-y-6">
+                    <div className=" space-y-6">
                         <p className="text-lg lg:text-xl text-white leading-relaxed">
                             In the rugged world of agriculture and forestry, your equipment faces relentless challenges—rough terrains, heavy loads, and extreme weather conditions. Tires bear the brunt of this punishment, often leading to frequent failures, costly replacements, and lost productivity.
                         </p>
@@ -59,7 +59,7 @@ export default function AgriGuard() {
                     <div className="grid lg:grid-cols-2 gap-8 lg:gap-16">
                         <div className="space-y-8">
                             <div className="space-y-4">
-                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-oswald">
+                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-andreas">
                                     Superior Temperature Management
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
@@ -68,7 +68,7 @@ export default function AgriGuard() {
                             </div>
 
                             <div className="space-y-4">
-                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-oswald">
+                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-andreas">
                                     Long-Lasting Pressure Stability
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
@@ -79,7 +79,7 @@ export default function AgriGuard() {
 
                         <div className="space-y-8">
                             <div className="space-y-4">
-                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-oswald">
+                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-andreas">
                                     Tire Resilience Through Elastomer Replenishment
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
@@ -88,7 +88,7 @@ export default function AgriGuard() {
                             </div>
 
                             <div className="space-y-4">
-                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-oswald">
+                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-andreas">
                                     Reinforced Bead Area Protection
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
@@ -99,7 +99,7 @@ export default function AgriGuard() {
                     </div>
 
                     <div className="space-y-6">
-                        <h2 className="text-[#FFD101] text-3xl lg:text-4xl font-bold font-oswald">
+                        <h2 className="text-[#FFD101] text-3xl lg:text-4xl font-bold font-andreas">
                             Benefits That Drive Your Operation Forward
                         </h2>
                         <div className="grid lg:grid-cols-2 gap-8">

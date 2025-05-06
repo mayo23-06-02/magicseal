@@ -49,11 +49,11 @@ export default function RaceX() {
                 <div className="space-y-12">
                     {/* Introduction */}
                     <div className="font-oswald space-y-6">
-                        <h1 className="text-[#FFD101] text-3xl lg:text-4xl font-bold">
+                        <h1 className="text-[#FFD101] text-3xl lg:text-4xl font-andreas font-bold">
                             Ultimate Tire Protection for Motorbikes
                         </h1>
                         <div className="space-y-4">
-                            <p className="text-lg lg:text-xl text-white leading-relaxed">
+                            <p className="text-lg lg:text-xl text-white leading-relaxed ">
                                 In the world of motorbiking, your tires are your lifeline. They connect you to the road, dictate your grip, and ultimately, determine your safety. For riders who demand the best, RaceX offers unparalleled tire protection tailored specifically for motorbikes.
                             </p>
                             <p className="text-lg lg:text-xl text-white leading-relaxed">
@@ -66,7 +66,7 @@ export default function RaceX() {
                     <div className="grid lg:grid-cols-2 gap-8 lg:gap-16">
                         <div className="space-y-8">
                             <div className="space-y-4">
-                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-oswald">
+                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-andreas">
                                     Advanced Temperature Management
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
@@ -75,7 +75,7 @@ export default function RaceX() {
                             </div>
 
                             <div className="space-y-4">
-                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-oswald">
+                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-andreas">
                                     Superior Pressure Stability
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
@@ -84,7 +84,7 @@ export default function RaceX() {
                             </div>
 
                             <div className="space-y-4">
-                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-oswald">
+                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-andreas">
                                     Dynamic Balancing
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
@@ -95,7 +95,7 @@ export default function RaceX() {
 
                         <div className="space-y-8">
                             <div className="space-y-4">
-                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-oswald">
+                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-andreas">
                                     Elastomer Replenishment
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
@@ -104,7 +104,7 @@ export default function RaceX() {
                             </div>
 
                             <div className="space-y-4">
-                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-oswald">
+                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-andreas">
                                     Reinforced Bead Protection
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
@@ -113,7 +113,7 @@ export default function RaceX() {
                             </div>
 
                             <div className="space-y-4">
-                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-oswald">
+                                <h2 className="text-[#FFD101] text-2xl lg:text-3xl font-bold font-andreas">
                                     Corrosion Protection
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
@@ -125,7 +125,7 @@ export default function RaceX() {
 
                     {/* Application Section */}
                     <div className="space-y-6">
-                        <h2 className="text-[#FFD101] text-3xl lg:text-4xl font-bold font-oswald">
+                        <h2 className="text-[#FFD101] text-3xl lg:text-4xl font-bold font-andreas">
                             Simple Application, Universal Compatibility
                         </h2>
                         <p className="text-gray-300 leading-relaxed">
@@ -135,7 +135,7 @@ export default function RaceX() {
 
                     {/* Benefits Section */}
                     <div className="space-y-6">
-                        <h2 className="text-[#FFD101] text-3xl lg:text-4xl font-bold font-oswald">
+                        <h2 className="text-[#FFD101] text-3xl lg:text-4xl font-bold font-andreas">
                             Benefits for Motorbike Riders
                         </h2>
                         <div className="grid lg:grid-cols-2 gap-8">
