@@ -3,7 +3,9 @@ import AD from '../../assets/Ad.png'
 import ADSM from '../../assets/Ad_sm.png'
 import Image from 'next/image'
 import Button from './Button'
+import { useRouter } from 'next/navigation'
 function Advert() {
+    const route = useRouter()
   return (
     <div className='relative'>
         <Image src={AD} alt="Advert" width={1920} height={400} className='w-full h-[300px] hidden lg:block object-cover' />
@@ -20,7 +22,7 @@ function Advert() {
                             The Ultimate Solution for Puncture Prevention and Tyre Longevity
                         </p>
                         <div className='w-full lg:justify-end flex'>
-                            <Button variant='primary'>Learn More</Button>
+                            <Button onClick={() => route.push('../../../fleetxguard')} variant='primary'>Learn More</Button>
                         </div>
                     </div>
                 </div>
