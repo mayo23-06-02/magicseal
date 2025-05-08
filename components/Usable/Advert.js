@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import AD from '../../assets/Ad.png'
 import ADSM from '../../assets/Ad_sm.png'
