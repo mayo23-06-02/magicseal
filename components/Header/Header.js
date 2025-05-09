@@ -47,7 +47,6 @@ function Header() {
 
     const socialLinks = [
         { Icon: BiLogoFacebook, url: 'https://www.facebook.com/profile.php?id=61575021916917', size: 24 },
-        { Icon: FaXTwitter, url: '#', size: 24 },
         { Icon: BiLogoInstagram, url: 'https://www.instagram.com/magicsealsa/', size: 24 },
         { Icon: BiLogoYoutube, url: '#', size: 24 },
         { Icon: BiLogoWhatsapp, url: 'https://wa.me/0639313869', size: 24 },
