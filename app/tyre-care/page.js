@@ -6,6 +6,51 @@ import TyreCareImage from "../../assets/4036.jpg"; // Replace with your actual i
 import Advert from "@/components/Usable/Advert";
 
 export default function TyreCare() {
+  const tyreCareTips = [
+    {
+      icon: <FaTachometerAlt className="text-[#FFD101] text-6xl" />,
+      title: "Regular Pressure Checks",
+      description:
+        "Maintaining the correct tyre pressure is vital for safety and fuel efficiency. Use a reliable pressure gauge monthly or before long trips.",
+    },
+    {
+      icon: <FaCheckCircle className="text-[#FFD101] text-6xl" />,
+      title: "Nourish the Rubber Compound",
+      description:
+        "Use tyre care products with elastomer-replenishing formulas to restore lost compounds and keep tyres supple.",
+    },
+    {
+      icon: <FaSearch className="text-[#FFD101] text-6xl" />,
+      title: "Inspect for Damage and Wear",
+      description:
+        "Regularly check for embedded objects, sidewall cracks, or tread depth below 1.6mm to prevent costly repairs or replacements.",
+    },
+    {
+      icon: <FaSyncAlt className="text-[#FFD101] text-6xl" />,
+      title: "Rotate Tyres Regularly",
+      description:
+        "Rotate tyres every 8,000–10,000 km to ensure even wear and extend their lifespan.",
+    },
+    {
+      icon: <FaSoap className="text-[#FFD101] text-6xl" />,
+      title: "Clean Tyres Properly",
+      description:
+        "Use a mild soap solution and a soft brush to clean tyres weekly. Avoid harsh chemicals that strip the rubber’s natural oils.",
+    },
+    {
+      icon: <FaCogs className="text-[#FFD101] text-6xl" />,
+      title: "Align Tyres Properly",
+      description:
+        "Proper alignment prevents uneven wear and strain on the rubber compound. Align wheels annually or if you notice steering issues.",
+    },
+    {
+      icon: <FaWarehouse className="text-[#FFD101] text-6xl" />,
+      title: "Store Tyres Correctly",
+      description:
+        "Store tyres in a cool, dry place away from sunlight and chemicals. Use tyre bags to protect the rubber and apply a conditioner to nourish the compound.",
+    },
+  ];
+
   return (
     <div className="bg-[#161616] text-white">
       <span className="absolute w-full z-50">
@@ -45,62 +90,17 @@ export default function TyreCare() {
             Tyre Care Tips
           </h3>
           <div className="grid lg:grid-cols-2 gap-8">
-            {/* Tip 1 */}
-            <div className="flex flex-col items-center text-center space-y-4 bg-gray-800 p-6 rounded-lg">
-              <FaTachometerAlt className="text-[#FFD101] text-6xl" />
-              <h4 className="text-xl font-bold text-[#FFD101]">Regular Pressure Checks</h4>
-              <p className="text-gray-300 leading-relaxed">
-                Maintaining the correct tyre pressure is vital for safety and fuel efficiency. Use a reliable pressure gauge monthly or before long trips.
-              </p>
-            </div>
-            {/* Tip 2 */}
-            <div className="flex flex-col items-center text-center space-y-4 bg-gray-800 p-6 rounded-lg">
-              <FaCheckCircle className="text-[#FFD101] text-6xl" />
-              <h4 className="text-xl font-bold text-[#FFD101]">Nourish the Rubber Compound</h4>
-              <p className="text-gray-300 leading-relaxed">
-                Use tyre care products with elastomer-replenishing formulas to restore lost compounds and keep tyres supple.
-              </p>
-            </div>
-            {/* Tip 3 */}
-            <div className="flex flex-col items-center text-center space-y-4 bg-gray-800 p-6 rounded-lg">
-              <FaSearch className="text-[#FFD101] text-6xl" />
-              <h4 className="text-xl font-bold text-[#FFD101]">Inspect for Damage and Wear</h4>
-              <p className="text-gray-300 leading-relaxed">
-                Regularly check for embedded objects, sidewall cracks, or tread depth below 1.6mm to prevent costly repairs or replacements.
-              </p>
-            </div>
-            {/* Tip 4 */}
-            <div className="flex flex-col items-center text-center space-y-4 bg-gray-800 p-6 rounded-lg">
-              <FaSyncAlt className="text-[#FFD101] text-6xl" />
-              <h4 className="text-xl font-bold text-[#FFD101]">Rotate Tyres Regularly</h4>
-              <p className="text-gray-300 leading-relaxed">
-                Rotate tyres every 8,000–10,000 km to ensure even wear and extend their lifespan.
-              </p>
-            </div>
-            {/* Tip 5 */}
-            <div className="flex flex-col items-center text-center space-y-4 bg-gray-800 p-6 rounded-lg">
-              <FaSoap className="text-[#FFD101] text-6xl" />
-              <h4 className="text-xl font-bold text-[#FFD101]">Clean Tyres Properly</h4>
-              <p className="text-gray-300 leading-relaxed">
-                Use a mild soap solution and a soft brush to clean tyres weekly. Avoid harsh chemicals that strip the rubber’s natural oils.
-              </p>
-            </div>
-            {/* Tip 6 */}
-            <div className="flex flex-col items-center text-center space-y-4 bg-gray-800 p-6 rounded-lg">
-              <FaCogs className="text-[#FFD101] text-6xl" />
-              <h4 className="text-xl font-bold text-[#FFD101]">Align Tyres Properly</h4>
-              <p className="text-gray-300 leading-relaxed">
-                Proper alignment prevents uneven wear and strain on the rubber compound. Align wheels annually or if you notice steering issues.
-              </p>
-            </div>
-            {/* Tip 7 */}
-            <div className="flex flex-col items-center text-center space-y-4 bg-gray-800 p-6 rounded-lg">
-              <FaWarehouse className="text-[#FFD101] text-6xl" />
-              <h4 className="text-xl font-bold text-[#FFD101]">Store Tyres Correctly</h4>
-              <p className="text-gray-300 leading-relaxed">
-                Store tyres in a cool, dry place away from sunlight and chemicals. Use tyre bags to protect the rubber and apply a conditioner to nourish the compound.
-              </p>
-            </div>
+            {tyreCareTips.map((tip, index) => (
+              <div
+                key={index}
+                className="relative flex flex-col items-center text-center space-y-4 bg-gray-800 p-6 rounded-lg"
+              >
+                <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#FFD101] via-[#FF5733] to-[#FFD101] animate-gradient"></div>
+                {tip.icon}
+                <h4 className="text-xl font-bold text-[#FFD101]">{tip.title}</h4>
+                <p className="text-gray-300 leading-relaxed">{tip.description}</p>
+              </div>
+            ))}
           </div>
         </div>
 
@@ -114,6 +114,7 @@ export default function TyreCare() {
           </p>
         </div>
       </div>
+
       <Advert />
       <Footer />
     </div>
