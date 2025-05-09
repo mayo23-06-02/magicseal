@@ -9,7 +9,7 @@ function Footer() {
         { title: 'CALCULATOR', path: 'https://calc.magicseal.co.za/' },
         { title: 'TYRE CARE', path: '/tyre-care' },
         { title: 'ABOUT US', path: '/about' },
-        { title: 'DEALERS', path: '/dealers' },
+        { title: 'CLIENTS', path: '/clients' },
         { title: 'CONTACT US', path: '/contact' },
     ];
 

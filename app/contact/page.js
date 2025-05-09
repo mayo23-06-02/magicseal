@@ -1,4 +1,5 @@
 import Header from "@/components/Header/Header";
+import Advert3 from "@/components/Usable/Advert3";
 import Footer from '@/components/Usable/Footer';
 import React from 'react';
 import ReactCountryFlag from "react-country-flag";
@@ -33,8 +34,8 @@ export default function ContactUs() {
               </p>
               <p>
                 <span className="font-bold">Email:</span>{' '}
-                <a href="mailto:info@magicseal.co.sz" className="text-[#FFD101] hover:underline">
-                  info@magicseal.co.sz
+                <a href="mailto:info@magicseal.co.za" className="text-[#FFD101] hover:underline">
+                  info@magicseal.co.za
                 </a>
               </p>
               <p>
@@ -73,8 +74,8 @@ export default function ContactUs() {
               </p>
               <p>
                 <span className="font-bold">Email:</span>{' '}
-                <a href="mailto:info@magicseal.co.sz" className="text-[#FFD101] hover:underline">
-                  info@magicseal.co.sz
+                <a href="mailto:info@magicseal.co.za" className="text-[#FFD101] hover:underline">
+                  info@magicseal.co.za
                 </a>
               </p>
               <p>
@@ -94,7 +95,7 @@ export default function ContactUs() {
 
         </div>
       </div>
-
+         <Advert3 />   
       <Footer />
     </div>
   );
