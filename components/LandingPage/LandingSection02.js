@@ -21,7 +21,7 @@ function LandingSection02() {
                     <div>
                         <Image src={Tractor} alt="tractor" width={200} height={500} className='w-full h-[300px] lg:hidden lg:h-[800px] object-cover mt-4' />
                     </div>
-                    <div className='lg:w-10/12 text-white py-12 space-y-8 text-justify font-oswald text-lg lg:text-2xl'>
+                    <div className='lg:w-10/12 text-white py-12 space-y-8 text-justify font-andreas text-lg lg:text-2xl'>
                         <p>
                             Our range of products are non toxic and environmentally friendly tyre sealants that are introduced into the tyre via the valve. MagicSeal sits harmlessly inside the tyre for the tyres natural lifetime as an active and permanent puncture preventative.
                         </p>

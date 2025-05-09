@@ -151,7 +151,7 @@ function LandingSection01() {
                         className="mb-8 lg:mt-24 px-6 lg:px-0"
                       />
                     )}
-                    <p className="text-xs lg:text-base px-6 lg:px-0 text-gray-400 font-oswald text-center font-light max-w-2xl mx-auto">
+                    <p className="text-xs lg:text-base px-6 lg:px-0 text-gray-400 font-andreas text-center font-light max-w-2xl mx-auto">
                       {slide.description}
                     </p>
                     <div className="flex justify-center mt-8">

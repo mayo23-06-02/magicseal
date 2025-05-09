@@ -16,7 +16,7 @@ export default function ContactUs() {
           {/* South Africa Office */}
           <div className="lg:mx-0 py-12 flex flex-col space-y-6">
             <div className="flex items-center space-x-4">
-              <h1 className="font-black text-4xl font-oswald text-white">South Africa Office</h1>
+              <h1 className="font-black text-4xl font-andreas text-white">South Africa Office</h1>
               <ReactCountryFlag
                 countryCode="ZA"
                 style={{
@@ -56,7 +56,7 @@ export default function ContactUs() {
           {/* Eswatini Office */}
           <div className="lg:mx-0 py-12 flex flex-col space-y-6">
             <div className="flex items-center space-x-4">
-              <h1 className="font-black text-4xl font-oswald text-white">Eswatini Office</h1>
+              <h1 className="font-black text-4xl font-andreas text-white">Eswatini Office</h1>
               <ReactCountryFlag
                 countryCode="SZ"
                 style={{

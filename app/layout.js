@@ -12,7 +12,7 @@ const poppins = Poppins({
 // Define Oswald (Google Font)
 const oswald = Oswald({
   weight: ["400", "700"],
-  variable: "--font-oswald",
+  variable: "--font-andreas",
   subsets: ["latin"],
 });
 

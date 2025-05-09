@@ -54,7 +54,7 @@ function Header() {
     ];
 
     return (
-        <div className='w-full flex-col items-center flex justify-center relative'>
+        <div className='w-full flex-col items-center flex font-andreas justify-center relative'>
             <div className='bg-[#252222] h-16 lg:h-32 lg:max-w-7xl w-full flex items-center'>
                 <Link href="/" className='lg:px-12 px-6 flex items-center justify-between lg:w-[350px]'>
                     <div className='hidden lg:block'>
@@ -89,7 +89,7 @@ function Header() {
                             ))}
                         </ul>
                     </div>
-                    <nav className='bg-[#FFD101] font-andreas text-black w-full h-16 items-center px-16 flex justify-center'>
+                    <nav className='bg-[#FFD101] font-oswald text-black w-full h-16 items-center px-16 flex justify-center'>
                         <ul className='flex'>
                             {navItems.map((item, index) => (
                                 <div 

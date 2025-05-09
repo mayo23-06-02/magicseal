@@ -37,7 +37,7 @@ export default function Clients() {
           priority
         />
         <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
-          <h1 className="text-4xl lg:text-6xl font-bold font-oswald text-center text-white">
+          <h1 className="text-4xl lg:text-6xl font-bold font-andreas text-center text-white">
             Our Clients
           </h1>
         </div>
@@ -46,7 +46,7 @@ export default function Clients() {
       {/* Clients Section */}
       <div className="max-w-7xl mx-auto px-4 lg:px-8 py-16 space-y-12">
         <div className="text-center space-y-6">
-          <h2 className="text-3xl lg:text-4xl font-bold font-oswald text-[#FFD101]">
+          <h2 className="text-3xl lg:text-4xl font-bold font-andreas text-[#FFD101]">
             Trusted by Industry Leaders
           </h2>
           <p className="text-lg lg:text-xl leading-relaxed text-gray-300">
@@ -59,7 +59,7 @@ export default function Clients() {
           {clients.map((client, index) => (
             <div
               key={index}
-              className="flex items-center justify-center bg-gray-800 p-6 rounded-lg shadow-lg"
+              className="flex items-center justify-center bg-gradient-to-br from-gray-800 via-gray-700 to-gray-800 p-6 rounded-lg shadow-lg animate-gradient"
             >
               <h3 className="text-lg lg:text-xl font-semibold text-[#FFD101] text-center">
                 {client}

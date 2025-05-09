@@ -10,7 +10,7 @@ export default function Applications() {
       <Header />
     </span>
     <div className="flex flex-col lg:px-64 justify-center h-screen items-center  ">
-      <h1 className="text-6xl font-bold text-[#252222] mb-4 font-oswald">
+      <h1 className="text-6xl font-bold text-[#252222] mb-4 font-andreas">
         404
       </h1>
       <h2 className="text-2xl font-semibold text-[#FFD101] mb-6 font-poppins">

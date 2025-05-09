@@ -13,7 +13,7 @@ module.exports = {
     extend: {
       fontFamily: {
         poppins: ['var(--font-poppins)'],
-        oswald: ['var(--font-oswald)'],
+        oswald: ['var(--font-andreas)'],
         andreas: ['var(--font-andreas)'],
       },
     },

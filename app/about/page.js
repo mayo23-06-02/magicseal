@@ -21,7 +21,7 @@ export default function AboutUs() {
           priority
         />
         <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
-          <h1 className="text-4xl lg:text-6xl font-bold font-oswald text-center text-white">
+          <h1 className="text-4xl lg:text-6xl font-bold font-andreas text-center text-white">
             About Us
           </h1>
         </div>
@@ -31,7 +31,7 @@ export default function AboutUs() {
       <div className="max-w-7xl mx-auto px-4 lg:px-8 py-16 space-y-12">
         {/* Introduction */}
         <div className="text-center space-y-6">
-          <h2 className="text-3xl lg:text-4xl font-bold font-oswald text-[#FFD101]">
+          <h2 className="text-3xl lg:text-4xl font-bold font-andreas text-[#FFD101]">
             Revolutionary Tyre Sealant for All Vehicles
           </h2>
           <p className="text-lg lg:text-xl leading-relaxed text-gray-300">
@@ -44,7 +44,7 @@ export default function AboutUs() {
 
         {/* How It Works */}
         <div className="space-y-6">
-          <h3 className="text-2xl lg:text-3xl font-bold font-oswald text-center text-[#FFD101]">
+          <h3 className="text-2xl lg:text-3xl font-bold font-andreas text-center text-[#FFD101]">
             How Does It Work?
           </h3>
           <p className="text-lg lg:text-xl leading-relaxed text-gray-300">
@@ -60,7 +60,7 @@ export default function AboutUs() {
 
         {/* Why Choose MagicSeal */}
         <div className="space-y-6">
-          <h3 className="text-2xl lg:text-3xl font-bold font-oswald text-center text-[#FFD101]">
+          <h3 className="text-2xl lg:text-3xl font-bold font-andreas text-center text-[#FFD101]">
             Why Choose MagicSeal?
           </h3>
           <ul className="list-disc list-inside text-gray-300 space-y-4 ml-4">
@@ -77,7 +77,7 @@ export default function AboutUs() {
 
         {/* Advanced Features */}
         <div className="space-y-12">
-          <h3 className="text-2xl lg:text-3xl font-bold font-oswald text-center text-[#FFD101]">
+          <h3 className="text-2xl lg:text-3xl font-bold font-andreas text-center text-[#FFD101]">
             Advanced Features
           </h3>
           <div className="grid lg:grid-cols-2 gap-8">
@@ -118,7 +118,7 @@ export default function AboutUs() {
 
         {/* Application Process */}
         <div className="space-y-6">
-          <h3 className="text-2xl lg:text-3xl font-bold font-oswald text-center text-[#FFD101]">
+          <h3 className="text-2xl lg:text-3xl font-bold font-andreas text-center text-[#FFD101]">
             Simple Application Process
           </h3>
           <p className="text-lg lg:text-xl leading-relaxed text-gray-300">

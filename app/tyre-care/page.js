@@ -66,7 +66,7 @@ export default function TyreCare() {
           priority
         />
         <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
-          <h1 className="text-4xl lg:text-6xl font-bold font-oswald text-center text-white">
+          <h1 className="text-4xl lg:text-6xl font-bold font-andreas text-center text-white">
             Tyre Care Guide
           </h1>
         </div>
@@ -76,7 +76,7 @@ export default function TyreCare() {
       <div className="max-w-7xl mx-auto px-4 lg:px-8 py-16 space-y-12">
         {/* Introduction */}
         <div className="text-center space-y-6">
-          <h2 className="text-3xl lg:text-4xl font-bold font-oswald text-[#FFD101]">
+          <h2 className="text-3xl lg:text-4xl font-bold font-andreas text-[#FFD101]">
             Essential Tips for Maintaining Your Tyres
           </h2>
           <p className="text-lg lg:text-xl leading-relaxed text-gray-300">
@@ -86,7 +86,7 @@ export default function TyreCare() {
 
         {/* Tyre Care Tips */}
         <div className="space-y-12">
-          <h3 className="text-2xl lg:text-3xl font-bold font-oswald text-center text-[#FFD101]">
+          <h3 className="text-2xl lg:text-3xl font-bold font-andreas text-center text-[#FFD101]">
             Tyre Care Tips
           </h3>
           <div className="grid lg:grid-cols-2 gap-8">
@@ -106,7 +106,7 @@ export default function TyreCare() {
 
         {/* Why Tyre Care Matters */}
         <div className="space-y-6">
-          <h3 className="text-2xl lg:text-3xl font-bold font-oswald text-center text-[#FFD101]">
+          <h3 className="text-2xl lg:text-3xl font-bold font-andreas text-center text-[#FFD101]">
             Why Tyre Care Matters
           </h3>
           <p className="text-lg lg:text-xl leading-relaxed text-gray-300 text-center">

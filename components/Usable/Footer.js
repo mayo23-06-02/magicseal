@@ -34,7 +34,7 @@ function Footer() {
                     {/* Navigation Links */}
                     <div>
                         <h3 className="font-poppins font-bold text-lg text-white mb-4">Navigation</h3>
-                        <ul className="font-oswald font-light space-y-2 text-white">
+                        <ul className="font-andreas font-light space-y-2 text-white">
                             {navItems.map((item) => (
                                 <li key={item.path}>
                                     <Link 
@@ -51,7 +51,7 @@ function Footer() {
                     {/* Social Links */}
                     <div>
                         <h3 className="font-poppins font-bold text-lg text-white mb-4">Connect With Us</h3>
-                        <ul className="font-oswald font-light space-y-2 text-white">
+                        <ul className="font-andreas font-light space-y-2 text-white">
                             {socialLinks.map((social) => (
                                 <li key={social.name}>
                                     <a 

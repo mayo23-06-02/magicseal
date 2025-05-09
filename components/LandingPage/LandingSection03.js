@@ -53,7 +53,7 @@ function LandingSection03() {
                     </div>
 
                     {/* Content */}
-                    <div className='lg:w-full text-white py-12 space-y-8 text-justify font-oswald text-lg lg:text-2xl'>
+                    <div className='lg:w-full text-white py-12 space-y-8 text-justify font-andreas text-lg lg:text-2xl'>
                         <p>
                             Our tyre sealants are a proprietary of blends of coolants, actual rubber, minerals, binders, clays, and aramid fibre - the stuff used in bullet proof jackets. The mixture sits inside the tyre harmlessly for up to 20 years and will instantly respond to and heal any puncture up to 16mm
                         </p>
