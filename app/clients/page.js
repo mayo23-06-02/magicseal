@@ -20,6 +20,7 @@ export default function Clients() {
     "Gems Construction",
     "Khula Corporation",
     "Kulula Couriers",
+    "Project Canaan",
   ];
 
   return (
